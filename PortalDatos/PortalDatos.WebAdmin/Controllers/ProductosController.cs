@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 namespace PortalDatos.WebAdmin.Controllers
 {
-  
+    [Authorize]
     public class ProductosController : Controller
     {
         ProductosBL _productosBL;
